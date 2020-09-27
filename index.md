@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+<doctype html/>
 
-You can use the [editor on GitHub](https://github.com/lribeirodev/dgoic/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<html>
+  <title>Calculadora DGOIC - Lucas Ribeiro</title>
+  <head></head>
+  
+  <body>
+    <center>
+      
+      <h1>Calculadora DGOIC</h1>
+      <h3>Criado por Lucas Ribeiro</h3>
+      <h4>Atualize a página para calcular novamente</h4>
+      <h4>Contato: 11 94131-4539</h4>
+      
+    </center>
+    <script>
+alert("Calculadora de DGOIC Programa feito por Lucas Ribeiro");
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+alert("Faça a leitura da tampa e insira os dados no programa");
 
-### Markdown
+var cores = ['VERDE' ,'AMARELO', 'BRANCO', 'AZUL', 'VERMELHO', 'VIOLETA', 'MARROM', 'ROSA', 'PRETO', 'CINZA', 'LARANJA', 'AQ MAR'];
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+let splitter=[
+  [0,0],
+  [1,2,3,4,5,6,7,8],
+  [9,10,11,12,13,14,15,16],
+  [17,18,19,20,21,22,23,24],
+  [25,26,27,28,29,30,31,32],
+  [33,34,35,36,37,38,39,40],
+  [41,42,43,44,45,46,47,48],
+  [49,50,51,52,53,54,55,56],
+  [57,58,59,60,61,62,63,64]
+  ];
 
-```markdown
-Syntax highlighted code block
+var ss = prompt("Agora escreva na ordem os splitters secundários que contem na caixa \n exemplo: 5,4,3,7,4,3");
 
-# Header 1
-## Header 2
-### Header 3
+var sss = ss.split(",");
+ var x = "";
+  
+for(var i = 0; i < sss.length; i++){
+  var n = sss[i];
+  var j = +n ;
+x = x + cores[i] + " SS"+ j + " " + splitter[n] + "\n";
+}
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lribeirodev/dgoic/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+alert(x);
+    </script>
+    
+  </body>
+</html>
