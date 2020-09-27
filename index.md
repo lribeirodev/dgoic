@@ -11,7 +11,9 @@
       <h3>Criado por Lucas Ribeiro</h3>
       <h4>Atualize a página para calcular novamente</h4>
       <h4>Contato: 11 94131-4539</h4>
-      
+
+      <h4> Adicione o aplicativo a tela inicial </h4>
+
     </center>
     <script>
 alert("Calculadora de DGOIC Programa feito por Lucas Ribeiro");
