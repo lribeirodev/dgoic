@@ -11,9 +11,23 @@
       <h3>Criado por Lucas Ribeiro</h3>
       <h4>Atualize a página para calcular novamente</h4>
       <h4>Contato: 11 94131-4539</h4>
-
-      <h4> Adicione o aplicativo a tela inicial </h4>
-
+      <h4>Adicione a página a sua tela inicial </h4>
+      
+      <h1>Como utilizar</h1>
+      
+<img src="https://i.ibb.co/BrgtcPD/Caixa-dgoic.jpg" alt="Caixa-dgoic" border="0" width=300px height=300px>
+<br><br>
+<h3>Faça a leitura da Caixa em relacao aos splitters secundários coloque na ordem da caixa, o resultado seria assim! 
+  <br>
+ 4,5,6,7,1,2,3,6</h3>
+ <br>
+<img src="https://i.ibb.co/WK69Hvd/Screenshot-20200927-004500.png" alt="Screenshot-20200927-004500" border="0" width=400px height=300px>
+<br>
+<h3>Agora de um OK</h3>
+<br>
+<img src="https://i.ibb.co/TTqgbw2/Screenshot-20200927-004519.png" alt="Screenshot-20200927-004500" border="0" width=400px height=300px>
+<br>
+<h3>O resultado do exemplo esta acima, agora podemos achar a anilha e a cor facilmente</h3>
     </center>
     <script>
 alert("Calculadora de DGOIC Programa feito por Lucas Ribeiro");
