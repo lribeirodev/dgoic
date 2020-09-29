@@ -1,5 +1,3 @@
-<doctype html/>
-
 <html>
   <title>Calculadora DGOIC - Lucas Ribeiro</title>
   <head></head>
